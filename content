@@ -1,0 +1,21 @@
+# Movie Ticket Booking (Starter)
+
+This is a starter project for a Movie Ticket Booking application.
+
+## Structure
+- `backend/` - Spring Boot starter (Java)
+- `frontend/` - Static HTML/CSS/JS demo pages
+- `database/schema.sql` - MySQL schema to create tables
+
+## Quick start
+1. Create MySQL database:
+   - `mysql -u root -p`
+   - `SOURCE database/schema.sql;`
+2. Update `backend/src/main/resources/application.properties` with your MySQL credentials.
+3. Build & run (if you use Maven):
+   - `mvn clean package`
+   - `mvn spring-boot:run`
+4. Open `frontend/index.html` in browser for static demo.
+
+## Notes
+- This is a minimal starter. Extend with authentication, seat map, payment gateway, and more.
